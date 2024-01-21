@@ -1,0 +1,24 @@
+.new-collections{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+h1{
+    color: white;
+}
+.new-coll{
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+hr{
+    width: 15%;
+    margin-top: 10px;
+}

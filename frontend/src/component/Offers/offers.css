@@ -1,0 +1,52 @@
+.offers{
+    display: flex;    
+    width: 70%;
+    height: 80vh;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 100px;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(255, 255, 255, 0.1));
+}
+
+.offers-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9em;
+    color: white;
+}
+
+.offers-left h1{
+    font-size: 4em;
+    font-weight: bolder;
+    
+}
+.offers-left p{
+    font-size: 1.5em;
+    
+}
+
+.offers-left button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    background-color:  rgb(14,165,233);  
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    width: 13em;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.offers-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-right img{
+    width: 90%;
+}

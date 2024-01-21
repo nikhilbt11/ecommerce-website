@@ -1,0 +1,14 @@
+.related-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 99%;
+    margin-top: 100px;
+}
+.inner-container{
+    margin-top: 40px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}

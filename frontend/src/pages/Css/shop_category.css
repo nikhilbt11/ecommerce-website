@@ -1,0 +1,29 @@
+.shop-category{
+
+    margin-top: 100px;
+}
+
+.shopcategory-indexsort{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.68);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.shopcategory-indexsort p{
+    margin-left: 50px;
+}
+.shopcategry-sort{
+    background-color: rgba(255, 255, 255, 0.395);
+    border-radius: 30px;
+    padding: 8px 15px;
+    margin-right: 50px;
+    color: black;
+}
+
+.shopcategory-products{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}

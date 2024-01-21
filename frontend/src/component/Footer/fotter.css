@@ -1,0 +1,47 @@
+.footer{
+    height: 70vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #171717;
+}
+
+.footer-logo{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 2em;
+    
+}
+.footer-social-icon{
+    display:flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: gray;
+    margin-top: 5em;
+ 
+}
+hr{
+    width: 80%;
+}

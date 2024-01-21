@@ -1,0 +1,157 @@
+.cart-items{
+    color: white;
+
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+    width: 99%;
+}
+
+.cart-item-format-main{
+    
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.cartitems-format{
+    
+     margin: 1em 0;
+    width: 80%;
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+
+}
+.cartitems-format .cart-icon-product{
+    width: 40%;
+    height: 15vh;
+}
+.cartitems-format p{
+    width: 25%;
+    text-align: center;
+    font-size: 0.9em;
+    
+}
+.cart-item-quantity{
+    height: 6vh;
+    width: 40%;
+   
+}
+
+#delete:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+#delete:active{
+    scale: 1.2;
+}
+
+
+.cart-items-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 80%;
+    height: 100vh;
+    margin-top: 5em;
+}
+
+.cart-items-total{
+   
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.cart-items-total-items{
+    display: flex;
+    justify-content: space-around;
+    width: 120%;
+   
+}
+
+.cart-items-total hr{
+    width: 120%;
+}
+.cart-items-total button{
+     width: 40%;
+     height: 3em;
+     border-radius: 30px;
+     font-size: 1em;
+     background-color: rgb(14,165,233);
+     color: white;
+     box-shadow: 1px 1px 2px grey;
+     transition: 0.5;
+     border: none;
+     outline: none;
+}
+.cart-items-total button:hover{
+    background-color: rgb(107, 186, 223);
+   
+}
+.cart-items-total button:active{
+    scale: 1.1; 
+}
+
+.cart-items-promo{
+    
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart-items-promo p{
+    font-size: 1.5em;
+    background-color: #171717;
+    padding: 0.5em 2em;
+    margin: auto;
+}
+
+.cart-items-promobox{
+   
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.cart-items-promobox input{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 0;
+    border: none;
+    outline: none;
+    width: 40%;
+    height: 8vh;
+    border-radius: 30px;
+}
+.cart-items-promobox button{
+    position: relative;
+    right: 50px;
+    background-color: #171717;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 0;
+    border: none;
+    outline: none;
+    width: 30%;
+    height: 8vh;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.cart-items-promobox button:hover{
+    background-color: #252525;
+}
+.cart-items-promobox button:active{
+    scale: 1.1;
+}

@@ -1,0 +1,30 @@
+.list-product{
+    width: 80%;
+    margin: auto;
+}
+.list-product-format-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.listproduct-allproduct{
+    width: 100%;
+}
+.listproduct-format{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.listproduct-img{
+    width: 30%;
+}
+.listproduct-remove-icon{
+    width: 10%;
+}
+.listproduct-remove-icon:hover{
+    width: 11%;
+}
+.listproduct-remove-icon:active{
+    width: 12%;
+}
